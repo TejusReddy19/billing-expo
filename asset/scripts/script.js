@@ -3,7 +3,7 @@ var InitialCount = -1;
 
 
 const deleteProducts = async() => {
-    url = 'https://autobill-main-apiiii.onrender.com/';
+    url = 'https://autobill-main-apiiii.onrender.com/product';
 
     let res = await axios.get(url);
     responseText = res.data;
